@@ -1,5 +1,0 @@
-ALTER TABLE site_settings
-  ADD COLUMN IF NOT EXISTS logo_url TEXT,
-  ADD COLUMN IF NOT EXISTS hero_bg_light TEXT,
-  ADD COLUMN IF NOT EXISTS hero_bg_dark TEXT,
-  ADD COLUMN IF NOT EXISTS tiktok_url TEXT;
