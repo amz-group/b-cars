@@ -83,7 +83,7 @@ export default function Footer() {
                 <div className="space-y-1.5">
                   <span>{settings?.address || 'B.CAR COMPANY'}</span>
                   <a
-                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(settings?.address || ''B.CAR COMPANY')}`}
+                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(settings?.address || 'B.CAR COMPANY')}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-1.5 px-3 py-1.5 bg-gray-800 hover:bg-primary-600 rounded-lg transition-colors text-gray-300 hover:text-white text-xs font-medium w-fit"
