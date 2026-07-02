@@ -81,7 +81,7 @@ export default function Footer() {
               <div className="flex items-start gap-3 text-sm text-gray-400">
                 <MapPin className="w-4 h-4 mt-0.5 shrink-0" />
                 <div className="space-y-1.5">
-                  <span>{settings?.address || 'ERBIL, WAVE AVENUE'}</span>
+                  <span>{settings?.address || 'B.CAR COMPANY'}</span>
                   <a
                     href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(settings?.address || 'ERBIL, WAVE AVENUE')}`}
                     target="_blank"
